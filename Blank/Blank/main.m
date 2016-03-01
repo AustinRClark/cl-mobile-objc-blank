@@ -12,7 +12,8 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         //NSLog(@"Hello, World!");
-        Blank *myBlankObject = [[Blank alloc]init]; //unused variable?
+        Blank *myBlankObject = [[Blank alloc]init];
+        NSLog(@"%@",myBlankObject);
         
     }
     return 0;
